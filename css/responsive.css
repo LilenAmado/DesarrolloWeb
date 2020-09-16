@@ -234,7 +234,8 @@
     }
     .login input[type='submit'] {
         /*margin: 15px auto;*/
-        margin-left: 42%;
+        width: 95%;
+        margin: 20px 2.5%;
     }
     .banner h1{
         font-size: 25px;
@@ -276,7 +277,8 @@
         height: 130px;
     }
     .login input[type='submit'] {
-        margin-left: 41%;
+        width: 95%;
+        margin: 20px 2.5%;
     }
 }
 @media (max-width: 475px){
@@ -343,12 +345,27 @@
         margin-top: 20px;
     }
     .login input[type='submit'] {
-        margin-left: 39%;
+        width: 95%;
+        margin: 20px 2.5%;
     }
     .html {
         width: 65%;
     }
     .footer .browsers img {
         width: 12%;
+    }
+    /*****/
+    .card{
+        width: 98%;
+        margin: 1.45%;
+        height: 100px;
+    }
+    
+    .card .icon{
+        line-height: 54px;
+    }
+    
+    .card .category{
+        margin-top: -62px;
     }
 }
